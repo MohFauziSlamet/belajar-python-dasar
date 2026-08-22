@@ -6,10 +6,10 @@
 # berdasarkan kondisi tertentu.
 # (Sumber: materi-pdf "Python Dasar.pdf" halaman 70 - 85)
 #
-# Padanan Dart & Flutter:
-#   - Python if / elif / else   ≈  Dart if / else if / else
-#   - Python match-case          ≈  Dart switch-case
-#   - Python x if cond else y    ≈  Dart cond ? x : y
+# Jika di Dart seperti ini → di Python jadi seperti ini:
+#   - Dart if / else if / else   →  Python if / elif / else
+#   - Dart switch-case           →  Python match-case
+#   - Dart cond ? x : y          →  Python x if cond else y
 #
 # Jebakan untuk dev Dart:
 #   1. Tidak menggunakan kurung kurawal {}, melainkan Indentasi (4 spasi) & titik dua (:)

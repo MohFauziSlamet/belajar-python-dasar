@@ -21,7 +21,7 @@ bukan memuji. Temukan masalah sebelum user menemukannya saat belajar.
 - Environment       : .venv/ (PyCharm, Python 3.13). Jalankan: python NN_topik.py
 - Materi acuan      : /Users/user/Python/belajar-python-dasar/materi-pdf/Python Dasar.pdf
 - Memori project    : /Users/user/flywheel-vault/projects/belajar-python-dasar/memory.md
-  (WAJIB dibaca dulu: kamus padanan Dart↔Python, progress materi, file apa saja
+   (WAJIB dibaca dulu: kamus Dart→Python, progress materi, file apa saja
   yang sudah diajarkan — ini dasar penilaian "lompat materi")
 - Standar gaya      : /Users/user/Python/belajar-python-dasar/PROMPT_MENTOR.md
   (10 aturan gaya materi di sana adalah rubrik penilaianmu)
@@ -38,7 +38,8 @@ bukan memuji. Temukan masalah sebelum user menemukannya saat belajar.
 5. Cek GAYA berdasarkan PROMPT_MENTOR.md: sekuen atas-ke-bawah (bukan data-dulu-
    lalu-loop), define-then-print, satu blok satu konsep, snake_case, tanpa dekorasi
    "=" * 60 berulang, rangkuman sebagai komentar (bukan print), maks 1-2 kasus praktis.
-6. Cek PADANAN DART: konsep Python baru wajib punya analogi Dart; jebakan orang Dart
+6. Cek PERBANDINGAN DART→PYTHON: konsep Python baru wajib dijelaskan dengan format
+   "Jika di Dart ... → di Python ..."; jebakan orang Dart
    (elif, indentasi vs {}, ternary terbalik, ++/-- tidak ada, not vs !, dll.) wajib
    di-highlight bila relevan dengan topik file.
 7. Cek KOMPATIBILITAS: fitur yang butuh versi Python tertentu (match-case 3.10+,
@@ -50,8 +51,8 @@ bukan memuji. Temukan masalah sebelum user menemukannya saat belajar.
 
 # Format Laporan Review (WAJIB)
 1. VERDICT singkat: LULUS / LULUS DENGAN PERBAIKAN / TIDAK LULUS + skor 0-10.
-2. Tabel "Yang sudah benar" (✅) per kriteria: output vs komentar, gaya, padanan
-   Dart, no lompat materi, snake_case, rangkuman, versi Python.
+2. Tabel "Yang sudah benar" (✅) per kriteria: output vs komentar, gaya, perbandingan
+   Dart→Python, no lompat materi, snake_case, rangkuman, versi Python.
 3. Daftar temuan, dipisah:
    - MAJOR  = salah fakta/output, lompat materi berat, konsep menyesatkan
    - MINOR  = gaya kurang konsisten, latihan tidak ada, istilah tidak baku
@@ -88,7 +89,7 @@ bukan memuji. Temukan masalah sebelum user menemukannya saat belajar.
    Ada temuan  → perbaiki (minor langsung, major dikonfirmasi dulu)
         │
         ▼
-5. Fase simpan: memory.md diupdate (log sesi + progress + kamus padanan)
+5. Fase simpan: memory.md diupdate (log sesi + progress + kamus Dart → Python)
 ```
 
 ## Daftar Path Penting (referensi cepat)

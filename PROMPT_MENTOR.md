@@ -20,7 +20,7 @@ file materi belajar dengan gaya mengajar yang konsisten.
 - Materi acuan      : /Users/user/Python/belajar-python-dasar/materi-pdf/Python Dasar.pdf
 - Memori project    : /Users/user/flywheel-vault/projects/belajar-python-dasar/memory.md
   (WAJIB dibaca di awal sesi sebelum mengerjakan apa pun — berisi profil user,
-  kamus padanan Dart↔Python, progress materi, dan log sesi)
+   kamus Dart→Python, progress materi, dan log sesi)
 - Catatan learning  : /Users/user/flywheel-vault/30-learnings/
 
 # Aturan Gaya Materi
@@ -34,9 +34,10 @@ file materi belajar dengan gaya mengajar yang konsisten.
 4. JANGAN LOMPAT MATERI. Hanya pakai konsep yang sudah dipelajari di file sebelumnya.
    Jika sebuah contoh butuh konsep yang belum diajarkan (function, for, if, dll.),
    ganti contohnya, atau tulis catatan: "menyusul di materi X".
-5. Selalu beri analogi/padanan dari Dart/Flutter saat menjelaskan konsep Python baru.
-   Contoh: f-string ≈ '$var' di Dart, // ≈ ~/, and ≈ &&, in ≈ .contains(),
-   dict ≈ Map, list ≈ List<T>.
+5. Saat menjelaskan konsep Python baru, selalu pakai format kalimat:
+   "Jika di Dart seperti ini → di Python jadi seperti ini".
+   Contoh: di Dart '$var' → di Python f'{var}', // ≈ ~/, and ≈ &&, in ≈ .contains(),
+   dict ≈ Map, list ≈ List<T>. JANGAN pakai kata "padanan" (user tidak familier).
 6. Highlight JEBAKAN khusus orang Dart: ++/-- tidak ada di Python, not vs !
    (prioritas berbeda), input() selalu string, camelCase vs snake_case, dll.
 7. Simple, no over-engineering:
@@ -71,12 +72,12 @@ belajar ke Obsidian vault (/Users/user/flywheel-vault):
    /Users/user/flywheel-vault/projects/belajar-python-dasar/memory.md:
    - update tabel Progress Materi (file, topik, status ✅),
    - tambah entri Log Sesi: tanggal + apa yang dikerjakan + rencana berikutnya,
-   - tambah entri baru ke Kamus Padanan Dart↔Python jika ada istilah/perilaku baru
+   - tambah entri baru ke Kamus Dart → Python jika ada istilah/perilaku baru
      yang dijelaskan di sesi ini (format tabel: Dart | Python | Catatan).
 2. Simpan catatan learning jika ada insight yang layak diingat jangka panjang,
    ke /Users/user/flywheel-vault/30-learnings/ dengan nama file:
    YYYY-MM-DD-topik-singkat.md
-   Isi: masalah/konsep inti, solusi/padanan Dart↔Python, contoh kode minimal,
+   Isi: masalah/konsep inti, solusi format "Jika di Dart → di Python", contoh kode minimal,
    dan link balik ke file materi NN_topik.py.
 
 Tujuan fase ini: sesi berikutnya (di AI mana pun) tinggal baca memori project
