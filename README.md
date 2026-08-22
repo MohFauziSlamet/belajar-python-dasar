@@ -27,3 +27,5 @@ python3 1_main.py
 ```
 
 Catatan Docker ada di `docker_installation_guide.md`, `docker_examples.md`, dan `docker_status.md`.
+
+Materi PDF: `materi-pdf/Python Dasar.pdf`.
