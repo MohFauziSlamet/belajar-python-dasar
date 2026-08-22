@@ -1,0 +1,16 @@
+# Virtual env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Editor / tooling
+.idea/
+.kilo/
+.claude/settings.local.json
+
+# Symlink ke vault lokal (di luar repo)
+memory_obsidian.md
+
+# Materi PDF (besar, tidak untuk publik)
+materi-pdf/
