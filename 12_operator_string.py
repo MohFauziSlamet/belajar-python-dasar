@@ -5,7 +5,7 @@
 # Operator string = operator yang bekerja pada string.
 # Ada 4: + (gabung), * (ulang), in (cari ada), not in (cari tidak ada).
 #
-# Padanan dengan Dart:
+# Jika di Dart seperti ini → di Python jadi seperti ini:
 #   +       : sama seperti Dart, menggabungkan string
 #   *       : TIDAK ADA di Dart! (di Dart harus List.filled(3, "x").join())
 #   in      : Dart pakai method .contains()

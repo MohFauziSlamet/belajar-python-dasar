@@ -27,7 +27,7 @@ print("tipe umur:", type(umur))   # <class 'str'>
 # 2. INPUT ANGKA (KONVERSI DULU)
 # ========================================
 # Pola yang sering dipakai: bungkus input() dengan int() atau float().
-# Di Dart padanannya: int.parse(stdin.readLineSync()!)
+# Jika di Dart: int.parse(stdin.readLineSync()!) → di Python: int(input())
 umur_angka = int(umur)
 
 print("umur tahun depan:", umur_angka + 1)   # sekarang bisa dihitung
